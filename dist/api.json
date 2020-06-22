@@ -1,0 +1,39 @@
+{
+  "url": {
+    "name": "FilteredSearch",
+    "separator": "*"
+  },
+  "constructor": "M.plugin.FilteredSearch",
+  "parameters": [{
+    "type": "object",
+    "properties": [{
+      "type": "enum",
+      "name": "position",
+      "possibleValues": [
+        "TL",
+        "TR",
+        "BL",
+        "BR"
+      ],
+      "position": 0
+    }]
+  }],
+  "files": {
+    "ol": {
+      "scripts": ["filteredsearch.ol.min.js"],
+      "styles": ["filteredsearch.ol.min.css"]
+    }
+  },
+  "metadata": {
+    "name": "FilteredSearch",
+    "description": "Búsqueda con filtros",
+    "text": "Permite realizar búsquedas y aplicar diferentes filtros. Da la posibilidad de poder guardar o exportar la consulta",
+    "version": "1.0.1",
+    "date": "Diciembre, 2019",
+    "author": "",
+    "org": "Consejería de Hacienda, Industria y Energía ",
+    "tags": "mapea,plugin",
+    "icon": "./facade/assets/icons/icons.svg",
+    "centralized": true
+  }
+}
