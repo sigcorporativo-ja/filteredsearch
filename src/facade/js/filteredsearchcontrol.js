@@ -757,8 +757,6 @@ export default class FilteredSearchControl extends M.Control {
         // this.deleteFromButton();
         break;
       default:
-        // eslint-disable-next-line no-console
-        console.log('Este botón no tiene funcionalidad.');
         break;
     }
   }
